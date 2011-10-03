@@ -1,0 +1,7 @@
+ORIG_PN=${PN}
+inherit distutils
+
+
+HOMEPAGE="https://launchpad.net/python-virtkey"
+SRC_URI="http://launchpad.net/python-virtkey/${PV[1]}.${PV[2]}/${PV}/+download/${P}.tar.gz"
+PATCH_URI="0.60.0-cygwin.patch"
