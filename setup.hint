@@ -1,5 +1,0 @@
-category: Python X11
-requires: libglib2.0_0 libgtk2.0_0 libX11_6 libXtst6 python
-sdesc: "Python virtual keyboard extension"
-ldesc: "Python extension for emulating keypresses and getting layout 
-information from the X server."
